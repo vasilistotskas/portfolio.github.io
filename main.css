@@ -1,6 +1,5 @@
 body{
 	background-color:#F5F5DC!important;
-	display: flex;
 }
 
 #profile-wrapper{
@@ -25,14 +24,12 @@ ul{
 .social-links ul, li{
 	list-style-type:none;
 	display: inline-block;
-	display: flex;
 }
 
 .social{
 	width:20px;
 	height: 20px;
 	vertical-align: middle;
-	display: flex;
 }
 
 th, td {
