@@ -1,0 +1,165 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vasilis Totskas</title>
+    <link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/vasilis.jpg' %}" >
+                    <br>
+                    <h2>Hi I'm Vasilis</h2>
+                    <p>I love coding, doing research and collaborating</p>
+            </div>
+        </div>
+
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <div class="image">
+
+                    <h2>Προσωπικές Πληροφορίες</h2>
+                    <br>
+                    <p>Προπτυχιακός του τμήματος Μηχανικών Πληροφορικής.
+                    Πανεπιστήμιο Δυτικής Μακεδονίας, Καστοριά(Ελλάδα)</p>
+                    <img class="social" src="{% static 'images/age.png' %}">
+                    <span>Ημερομ. Γέννησης : 03/10/1997</span>
+                        <br>
+                    <img class="social" src="{% static 'images/locations.png' %}">
+                    <span>Τόπος γέννησης : Βέροια-Ημαθία</span>
+                    <p>Οικογεν. Κατάσταση : ‘Αγαμος</p>
+                    <p>Στρατιωτικές υποχρεώσεις : Ανεκπλήρωτες</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h2>Γνώσεις Ηλεκτρονικού Υπολογιστή</h2>
+                <br>
+                 <p>Microsoft Word (Επεξεργασία Κειμένου) , Microsoft Excel , Spreadsheets (Υπολογιστικά φύλλα) ,
+                     Online Essentials ( Υπηρεσίες Διαδικτύου)</p>
+                 <p>Βασικές γνώσεις στις εξής γλώσσες προγραμματισμού : Python, CSS, HTML</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h2>Εκπαίδευση</h2>
+                    <br>
+                    <p>2015 – 2020 : Πανεπιστήμιο Δυτικής Μακεδονίας ΑΕΙ / ΤΕΙ
+                    Τμήμα Μηχανικών Πληροφορικής
+                    Προπτυχιακός Φοιτητής</p>
+                    <p>2012-2015 : 4ο Γενικό Λύκειο Βέροιας</p>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-body h-100">
+                    <h2>Ατομικές Δεξιότητες</h2>
+                <br>
+                 <h5>Ξένες γλώσσες :</h5> <p>Michigan – Lower ,
+                                    ESB - Lower</p>
+                    <br>
+                 <h5>Ψηφιακές δεξιότητες :</h5>
+                 <table>
+                    <thead>
+                         <tr>
+                            <th>Επεξεργασία δεδομένων</th>
+                            <th>Επικοινωνία</th>
+                            <th>Δημιουργία Περιεχομένου</th>
+                            <th>Ασφάλεια</th>
+                            <th>Επίλυση προβλημάτων</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ανεξάρτητος χρήστης</td>
+                            <td>Έμπειρος χρήστης</td>
+                            <td>Ανεξάρτητος χρήστης</td>
+                            <td>Ανεξάρτητος χρήστης</td>
+                            <td>Έμπειρος χρήστης</td>
+
+                        </tr>
+                    </tbody>
+                 </table>
+                    <br>
+                    <h5>Εξειδικευμένες γνώσεις :</h5> <p>Ικανότητα χειρισμού όλων των μηχανών γραφείου ( scanner , printer , fax κλπ )
+                    Άδειες οδήγησης : B (αυτοκίνητο Ι.Χ), A1 (Μηχανή 125cc) , AM (Μηχανή 50cc)</p>
+                    <br>
+                    <h5>Σεμινάρια:</h5>
+                    <p>18/03/2019 : Σεμινάριο της Google : How to desing and build a website .
+                    (Εισηγητής κ.Χρηστος Μπίτζης)</p>
+                    <p>02/2020: Python TestDome Certificate</p>
+                </div>
+            </div>
+            <br>
+
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h2>Ενδιαφέροντα – Κοινωνική Δραστηριότητα</h2>
+                    <br>
+                    <p>Ασχολούμαι τον τελευταίο καιρό με το framework Django όσο παρακολουθώ κάποια online courses
+                        που έχουν να κάνουν με Python , HTML, και CSS.</p>
+                    <p>Μέλος του Πολιτιστικού Συλόγου ΕΜΣΦ Φυτείας .
+                        Μέλος της ομάδας μπάσκετ ΑΟΚ Βέροιας .</p>
+                    <p>Παρακολουθώ όλες τις επιστημονικές εξελίξεις στον κλάδο της Φυσικής , Πληροφορικής και των
+                    επιστημών , καθώς και την Ελληνική και παγκόσμια επικαιρότητα .</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <div class="image">
+                    <h2>Στοιχεία Επικοινωνίας</h2>
+                    <br>
+                    <p>Ταχ.Διεύθυνση : Ιπποδρομίου 22 , 54621 , Θεσσαλονίκη</p>
+                    <img class="social" src="{% static 'images/mobile.png' %}">
+                    <span>Αρ.τηλεφώνου : 6943413781</span>
+                        <br>
+                    <img class="social" src="{% static 'images/mail.png' %}">
+                    <span>E-mail : vassilistotskas@msn.com</span>
+                        <br>
+                    <img class="social" src="{% static 'images/linkedindark.png' %}">
+                    <span><a href="https://www.linkedin.com/in/vasilis-totskas-148a571a0/" target="_blank">Linkedin</a></span>
+                        <br>
+                    <img class="social" src="{% static 'images/githubdark.png' %}">
+                    <span><a href="https://github.com/vasilistotskas" target="_blank">Github</a></span>
+                    <div>
+                        <br>
+                    <ul class="social-links">
+                        <li><img class="social" src="{% static 'images/facebook.png' %}"> </li>
+                        <li><img class="social" src="{% static 'images/linkedin.png' %}"> </li>
+                        <li><img class="social" src="{% static 'images/twitter.png' %}"> </li>
+                        <li><img class="social" src="{% static 'images/youtube.png' %}"> </li>
+                    </ul>
+                    </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+        <br>
+    </div>
+    <footer id="main-footer">
+        <p>Copyright &copy; 2020, My Portfolio Website</p>
+    </footer>
+</body>
+</html>
